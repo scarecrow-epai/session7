@@ -106,6 +106,9 @@ number_plates = [
 
 # Q6
 def custom_number_plate(state, low, up):
+    """
+    Create 15 custom number plates. 
+    """
     number_plates = [
         f"{state}{random.randint(10, 99)}{string.ascii_uppercase[random.randint(0, 25)]}{string.ascii_uppercase[random.randint(0, 25)]}{random.randint(low, up)}"
         for i in range(15)

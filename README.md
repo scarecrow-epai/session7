@@ -13,7 +13,7 @@ pytest -v
 ## Functions in `session7.py`.
 
 
- The function definitions are as follows -  
+ The function definitions are as follows: 
 
 ### fibonacci(num: int) -> "list of fibonacci numbers"
 
@@ -28,7 +28,7 @@ pytest -v
 ### custom_number_plate(state, low, up)
 
 
-        f"{state}{random.randint(10, 99)}{string.ascii_uppercase[random.randint(0, 25)]}{string.ascii_uppercase[random.randint(0, 25)]}{random.randint(low, up)}"
+    Create 15 custom number plates. 
 
 
 ## Functions in `test_session7.py`.
