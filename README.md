@@ -13,7 +13,7 @@ pytest -v
 ## Functions in `session7.py`.
 
 
- The function definitions are as follows: 
+ The function definitions are as follows -  
 
 ### fibonacci(num: int) -> "list of fibonacci numbers"
 
